@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Microsite</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      margin: 20px;
+      
+      background-color: blanchedalmond;
+    }
+
+    h1 {
+      
+    font-size: 4em;
+    font-weight: bold;
+    color: #18aaba;
+    background-color: black;
+    text-align: center;
+    }
+    h2{
+        font-size: 2em;
+        text-align: left;
+    }
+   
+    .image-container {
+      float: right;
+  margin-left: 10px;
+    }
+
+footer{
+    font-size: 2em;
+    color: aqua;
+    background-color: black;
+    text-align: center;
+}
+    section {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  
+
+ 
+  <header>
+    <h1>The Long Lost Spice</h1>
+  </header>
+  <h2>Turmeric</h2>
+  <div class="image-container">
+    <img src="turmeric.jpeg" alt="Your Image">
+  </div>
+  <nav>
+    
+    <a href="promotion.html">Why Turmeric</a><br>
+    <a href="about.html">What is Turmeric</a><br>
+    <a href="rate.html">People's opinion on it</a><br>
+    <a href="support.html">How you can support</a><br>
+    <a href="corporate.html">More about the company</a><br>
+  </nav>
+  <br><br>
+  <button onclick="showAlert()">Enter</button>
+  <script>
+  
+    function showAlert() {
+      alert('You have entered the form');
+      let userInput = prompt("Quantity of Turmeric:");
+console.log("Number of Turmeric:", userInput);
+let Delivery = prompt("Delivery Date:");
+console.log("Expected delivery date:", Delivery);
+    }
+  </script>
+  <br><br><br><br><br>
+<footer>Copyrighted organisation. Use of Content Prohibited</footer>
+ 
+ 
+  
+
+  
+
+  
+
+</body>
+</html>
